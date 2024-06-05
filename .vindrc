@@ -1,0 +1,12 @@
+" remote repo
+ source Flowergloden/Vinrc
+
+" default mapping
+version tiny
+
+" init mode
+initmode r
+
+" block-style caret
+blockstylecaret true
+blockstylecaret_mode flex
