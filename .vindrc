@@ -10,3 +10,12 @@ initmode r
 " block-style caret
 blockstylecaret true
 blockstylecaret_mode flex
+
+" auto window focus
+autotrack_popup true
+
+" easy-click cache
+uiacachebuild true
+
+" shell
+shell wt
