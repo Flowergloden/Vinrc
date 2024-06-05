@@ -9,7 +9,7 @@ set initmode = r
 
 " block-style caret
 set blockstylecaret = true
-set blockstylecaret_mode = flex
+" set blockstylecaret_mode = flex
 
 " auto window focus
 set autotrack_popup = true
@@ -19,6 +19,7 @@ set uiacachebuild = true
 
 " shell
 set shell = wt
+set shellcmdflag = 
 
 " mode switch
 map <Esc-k> <to_gui_normal>
