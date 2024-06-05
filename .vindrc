@@ -1,5 +1,5 @@
 " remote repo
- source Flowergloden/Vinrc
+" source Flowergloden/Vinrc
 
 " default mapping
 version tiny
@@ -21,8 +21,9 @@ set uiacachebuild = true
 set shell = wt
 
 " mode switch
-map <Esc-Esc> <to_resident>
-map <Esc-[> <to_gui_normal>
-map <Esc-]> <to_edi_normal>
-rmap <Esc-[> <to_gui_normal>
-rmap <Esc-]> <to_edi_normal>
+map <Esc-k> <to_gui_normal>
+map <Esc-j> <to_edi_normal>
+rmap <Esc-k> <to_gui_normal>
+rmap <Esc-j> <to_edi_normal>
+imap <Esc> <to_edi_normal>
+vmap <Esc> <to_edi_normal>
