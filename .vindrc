@@ -19,3 +19,10 @@ uiacachebuild true
 
 " shell
 shell wt
+
+" mode switch
+map <Esc-Esc> <to_resident>
+map <Esc-[> <to_gui_normal>
+map <Esc-]> <to_edi_normal>
+rmap <Esc-[> <to_gui_normal>
+rmap <Esc-]> <to_edi_normal>
