@@ -5,20 +5,20 @@
 version tiny
 
 " init mode
-initmode r
+set initmode = r
 
 " block-style caret
-blockstylecaret true
-blockstylecaret_mode flex
+set blockstylecaret = true
+set blockstylecaret_mode = flex
 
 " auto window focus
-autotrack_popup true
+set autotrack_popup = true
 
 " easy-click cache
-uiacachebuild true
+set uiacachebuild = true
 
 " shell
-shell wt
+set shell = wt
 
 " mode switch
 map <Esc-Esc> <to_resident>
