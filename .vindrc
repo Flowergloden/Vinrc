@@ -22,9 +22,15 @@ set shell = wt
 set shellcmdflag = 
 
 " mode switch
+map <Esc> <to_resident>
 map <Esc-k> <to_gui_normal>
 map <Esc-j> <to_edi_normal>
 rmap <Esc-k> <to_gui_normal>
 rmap <Esc-j> <to_edi_normal>
 imap <Esc> <to_edi_normal>
 vmap <Esc> <to_edi_normal>
+
+" auto mode switch
+autocmd AppEnter *notepad* <to_edi_normal>
+autocmd AppEnter *rider* <to_resident>
+autocmd AppEnter *code* <to_resident>
