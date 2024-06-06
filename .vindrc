@@ -34,3 +34,7 @@ vmap <Esc> <to_edi_normal>
 autocmd AppEnter *notepad* <to_edi_normal>
 autocmd AppEnter *rider* <to_resident>
 autocmd AppEnter *code* <to_resident>
+
+" easy click
+gnmap <Alt> <easyclick><click_left>
+gnmap <Shift-Alt> <easyclick><click_left>
