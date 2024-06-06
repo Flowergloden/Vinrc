@@ -19,7 +19,7 @@ set uiacachebuild = true
 
 " shell
 set shell = pwsh
-set shellcmdflag = 
+" set shellcmdflag = 
 
 " mode switch
 map <Esc> <to_resident>
