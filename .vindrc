@@ -38,3 +38,8 @@ autocmd AppEnter *code* <to_resident>
 " easy click
 gnmap <Alt> <easyclick><click_left>
 gnmap <Shift-Alt> <easyclick><click_left>
+
+" window switch
+map <Tab> <switch_window><easyclick><click_left>
+" map <Tab-h> <switch_window><select_left_window>
+" map <Tab-l> <switch_window><select_right_window>
